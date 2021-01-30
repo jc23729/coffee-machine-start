@@ -64,3 +64,7 @@ def is_transaction_successful(money_received, drink_cost):
     for item in order_ingredients:
         resources[item] -= order_ingredients[item]
     print(f"Here is your {drink_name} ☕️. Enjoy!")
+
+while is_on:
+    choice = input("​What would you like? (espresso/latte/cappuccino): ")
+    
